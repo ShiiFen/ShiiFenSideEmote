@@ -1,6 +1,3 @@
--- Made by ShiiFen
--- hold E for slowmotion
-
 local IsStudio = false
 
 local ContextActionService = game:GetService("ContextActionService")
