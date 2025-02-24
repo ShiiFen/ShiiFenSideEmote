@@ -659,7 +659,7 @@ local function onInputEnded(input)
                 local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
                 if Hum then
                     for i, v in next, Hum:GetPlayingAnimationTracks() do
-                        v:AdjustSpeed(1.2)
+                        v:AdjustSpeed(1.0)
                     end
                 end
             end
